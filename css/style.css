@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+/* Everything in parttwo is here */
+
+.parttwo {
+    display: flex;
+    margin-left: 40px;
+    color: white;
+    flex-grow: 0px;
+
+}
+
+img {
+    margin-right: 40px;
+    padding-left: 200px;
+    margin-left: 40px;
+    
+}
+
+.group {
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    margin-right: auto;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+
+/* Everything in parttwo ends here */
+
+li {
+    list-style-type: none;
+
+}
+
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 32px;
+    color: white;
+}
+
